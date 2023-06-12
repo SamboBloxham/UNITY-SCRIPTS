@@ -43,13 +43,7 @@ public class SlideAnimation : MonoBehaviour
         targetPosition = endTarget;
     }
 
-    public void SlideBackIn()
-    {
-        progress = 0;
-        oldPosition = targetPosition;
-        targetPosition = middleTarget;
-    }
-    public void SlideBackOut()
+    public void SlideToStart()
     {
         progress = 0;
 
